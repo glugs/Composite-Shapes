@@ -13,6 +13,13 @@ void setup()
 {
   size(700, 500); //Display Geometry (Orientations): Square, Landscape, Portrait
   //fullScreen(); //displayWidth, displayHeigth
+  //Population
+  x = width*1/4;
+  y = height*1/4; 
+  rectWidth = width*1/2;
+  rectHeight = height*1/2;
+  thin=width*1/50;
+  thick=2*thin;
   println("Canvas Size", width, height);
   println("Display", "width: ", displayWidth, " height: ", displayHeight);
 }//End setup
